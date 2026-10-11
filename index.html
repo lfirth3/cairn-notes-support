@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cairn Notes Support</title>
+<meta name="description" content="Help and contact details for Cairn Notes, the notes app for iPhone that remembers where you left each note.">
+<link rel="icon" href="./icon.png">
+<style>
+:root { --ink:#1b2a20; --soft:#5b6b60; --line:#dfe5df; --bg:#f7f5f0; --card:#ffffff; --accent:#296b3d; }
+:root:not([data-theme="light"]) { color-scheme: light dark; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --ink:#e9efe9; --soft:#a3b1a6; --line:#2c372f; --bg:#121814; --card:#1a221c; --accent:#7fc793; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; -webkit-text-size-adjust:100%; }
+.wrap { max-width:680px; margin:0 auto; padding:0 20px 64px; }
+header { display:flex; align-items:center; gap:14px; padding:28px 0 20px; border-bottom:1px solid var(--line); margin-bottom:28px; flex-wrap:wrap; }
+header img { width:52px; height:52px; border-radius:12px; }
+header .name { font-weight:700; font-size:20px; margin-right:auto; }
+nav a { margin-left:18px; }
+nav a:first-child { margin-left:0; }
+a { color:var(--accent); }
+h1 { font-size:32px; line-height:1.2; margin:0 0 8px; }
+h2 { font-size:21px; margin:36px 0 8px; }
+p, ul { margin:0 0 14px; }
+ul { padding-left:22px; }
+li { margin-bottom:6px; }
+.lead { color:var(--soft); font-size:19px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:20px; margin:24px 0; }
+.card p:last-child { margin-bottom:0; }
+.button { display:inline-block; background:var(--accent); color:var(--bg); text-decoration:none; font-weight:600; padding:10px 18px; border-radius:999px; }
+details { border-bottom:1px solid var(--line); padding:14px 0; }
+details summary { font-weight:600; cursor:pointer; }
+details > *:not(summary) { margin-top:10px; }
+.table { overflow-x:auto; }
+table { border-collapse:collapse; width:100%; font-size:15px; }
+th, td { text-align:left; vertical-align:top; padding:8px 10px; border-bottom:1px solid var(--line); }
+footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--soft); font-size:15px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <img src="./icon.png" alt="">
+  <span class="name">Cairn Notes</span>
+  <nav><a href="./">Support</a><a href="./privacy/">Privacy</a></nav>
+</header>
+<main>
+<h1>Support</h1>
+<p class="lead">Help with Cairn Notes, the notes app for iPhone that remembers where you left each note.</p>
+
+<div class="card">
+<p><strong>Get in touch.</strong> Questions, ideas, or something not working? Email and you'll get a reply from the person who makes the app.</p>
+<p><a class="button" href="mailto:firthlabs@gmail.com?subject=Cairn%20Notes">firthlabs@gmail.com</a></p>
+<p>If something isn't working, it helps to say which iPhone you have and which version of iOS it's running. In the app, Settings &rsaquo; Help &rsaquo; Send Feedback fills in the app's version for you.</p>
+</div>
+
+<h2>Common questions</h2>
+<details>
+<summary>I&#x27;m not getting a reminder when I arrive somewhere</summary>
+<p>Arrival reminders need three things switched on:</p>
+<ul>
+<li><strong>Location set to &ldquo;Always&rdquo;</strong>: iPhone Settings &rsaquo; Apps &rsaquo; Cairn Notes &rsaquo; Location.</li>
+<li><strong>Notifications allowed</strong>: iPhone Settings &rsaquo; Apps &rsaquo; Cairn Notes &rsaquo; Notifications.</li>
+<li><strong>Arrival notifications</strong> turned on in the app: Cairns tab &rsaquo; the cog &rsaquo; Notifications.</li>
+</ul>
+<p>Also worth knowing:</p>
+<ul>
+<li>A reminder appears when you <em>arrive</em>, so you need to have been away from the place (about 100&nbsp;m or more) and come back.</li>
+<li>A place that has just reminded you stays quiet for an hour.</li>
+<li>If you chose &ldquo;Don't Remind Me Here&rdquo; for a place, turn its reminders back on from that place's &ctdot; menu.</li>
+<li>iOS lets an app watch 20 places at a time. Cairn Notes watches the ones nearest to you and re-picks them as you travel.</li>
+</ul>
+</details>
+<details>
+<summary>There&#x27;s no Cairn Summary on my notes</summary>
+<p>The written summary uses Apple Intelligence, on your iPhone. On iPhones that don't support it, or where it's turned off, Cairn Notes shows a simpler summary put together from your notes instead. You can turn summaries on or off, and choose their tone, in the app's Settings.</p>
+</details>
+<details>
+<summary>How do I back up my notes or move to a new iPhone?</summary>
+<p>Your notes are kept only on your iPhone, and are included in your iPhone's own backup (iCloud Backup or a backup to a computer). Restoring that backup on a new iPhone brings them with it. Cairn Notes doesn't sync through iCloud.</p>
+<p>For a copy you can keep anywhere, use Settings &rsaquo; Export Notes in the app.</p>
+</details>
+<details>
+<summary>I deleted a note by mistake</summary>
+<p>An <strong>Undo</strong> button appears for a few seconds after you delete. After that the note is gone for good. Archiving, on the other hand, never deletes anything: archived notes are under <strong>Archived</strong> on the Cairns tab.</p>
+</details>
+<details>
+<summary>How do locked notes work?</summary>
+<p>Locking a note hides it behind Face ID, Touch ID or your passcode. Locked notes are kept out of search, summaries, widgets, notifications, sharing and exports. The lock hides the note inside the app; the note is stored on your iPhone like your others, protected by your iPhone's own security.</p>
+</details>
+<details>
+<summary>Apple Health figures aren&#x27;t showing in the Logbook</summary>
+<p>Apple Health is optional. Turn it on in the app's Settings, then check what Cairn Notes may read in the Health app under Sharing &rsaquo; Apps. Only figures that Health actually has are shown, and Activity rings need an Apple Watch or a move goal set in the Fitness app.</p>
+</details>
+<details>
+<summary>How do I use a trail with Komoot, Garmin or OS Maps?</summary>
+<p>Plan a trail on the Map tab, tap the share button on the trail panel and choose <strong>Export GPX</strong>. To bring a route in, open a <code>.gpx</code> file and choose Cairn Notes, or use <strong>Import a Route</strong> when planning a trail.</p>
+</details>
+<details>
+<summary>How do I delete all my data?</summary>
+<p>Deleting the app removes everything it has stored. Nothing is kept anywhere else: there are no accounts and no servers.</p>
+</details>
+
+<h2>Your privacy</h2>
+<p>Everything you write stays on your iPhone. There are no accounts, no ads and no tracking. Read the <a href="privacy/">privacy policy</a>.</p>
+
+<h2>What you need</h2>
+<p>An iPhone running iOS 26 or later. Cairn Notes is free.</p>
+
+</main>
+<footer>&copy; 2026 Liam Firth &middot; <a href="mailto:firthlabs@gmail.com">firthlabs@gmail.com</a></footer>
+</div>
+</body>
+</html>
